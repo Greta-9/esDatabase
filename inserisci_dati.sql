@@ -1,0 +1,10 @@
+INSERT INTO compagni (Nome, Cognome, Email) VALUES ('Andrea', 'Alvigini', 'andre@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Simone', 'Cognome1', 'simone@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES ('Greta', 'Di Fabio', 'greta@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Tiziano', 'Cognome2', 'tiziano@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Giorgio', 'Cognome3', 'giorgio@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Davide', 'Cognome4', 'davide@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Alessandro', 'Cognome5', 'alessandro@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Christopher', 'Cognome6', 'christopher@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES('Emanuele', 'Cognome7', 'emanuele@example');
+INSERT INTO compagni (Nome, Cognome, Email) VALUES ('Gianluca', 'Ciceri', 'gianluca@example');
