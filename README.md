@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS compagni (
 );
 ```
 - Creo una tabella "compagni"
-- Inserisco una colonna "id" di interi come chiave primaria e che si incrementano automaticamente
+- Inserisco una colonna "id" di interi che si incrementano automaticamente
 - Inserisco le colonne "Nome", "Cognome", "Email" di stringhe.
 
 ### Inserimento dei Dummy Datas
