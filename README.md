@@ -3,7 +3,7 @@
 
 > L'esercitazione consiste nel creare un database per mezzo di Sqlite3 e inserire al suo interno una tabella "compagni" con una decina di dummy datas.
 
-### Creazione del database
+### Creazione della tabella
 > Nella cartella esDatabase creo il file "crea_tabella.sql" in cui inserisco questo codice:
 ```
 CREATE TABLE IF NOT EXISTS compagni (
@@ -34,3 +34,7 @@ INSERT INTO compagni (Nome, Cognome, Email) VALUES ('Gianluca', 'Ciceri', 'gianl
 
 - Inserisco nella tabella "compagni", rispettivamente nelle colonne "Nome", "Cognome", "Email" i valori specificati.
 
+### Esecuzione dei comandi
+> Infine, per utilizzare i file sql appena creati, nel terminale, all'interno sempre della cartella "esDatabase" eseguo questi comandi:
+- **sqlite3 classe.db < crea_tabella.sql** che crea un db "classe" e esegue crea_tabella.sql
+- **sqlite3 classe.db < inserisci_dati.sql** che esegue il file "inserisci_dati.sql" all'interno di classe.db
